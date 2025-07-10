@@ -106,6 +106,18 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    
      ![](../../media/01/asklater.png?raw=true)
 
+1. Or if you see the pop-up **Let's keep your account secure**, click **Next (1)**.
+   
+     ![](../../media/01/mfa1.png?raw=true)
+
+1. In **Microsoft Authenticator** page, click **Skip setup (1)**.
+   
+     ![](../../media/01/mfa2.png?raw=true)
+     
+1. And in **Stay signed in**, select **No (1)**.
+   
+     ![](../../media/01/mfa3.png?raw=true)
+
 ## Steps to Proceed with MFA Setup if "Ask Later" Option is Not Visible
 
 1. At the **"More information required"** prompt, select **Next**.
