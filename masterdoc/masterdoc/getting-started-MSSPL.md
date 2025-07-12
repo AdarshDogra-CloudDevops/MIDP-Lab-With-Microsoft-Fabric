@@ -36,8 +36,6 @@ In this hands-on lab, you will work through the architecture flow illustrated in
 
 - **Microsoft Fabric**: Microsoft Fabric is a comprehensive analytics and data platform tailored for enterprises seeking an integrated solution. It covers all aspects of data management, including movement, processing, ingestion, transformation, real-time event routing, and reporting. The platform provides a full range of services, such as Data Engineering, Data Factory, Data Science, Real-Time Analytics, Data Warehousing, and Databases.
 
-- **Microsoft Fabric Lakehouse**: Microsoft Fabric Lakehouse is a comprehensive data architecture platform designed for storing, managing, and analyzing both structured and unstructured data in a unified environment. It offers flexibility and scalability, enabling organizations to handle extensive data volumes with a range of tools and frameworks for processing and analysis. By integrating with various data management and analytics tools, it provides a holistic solution for data engineering and analytics.
-
 - **SharePoint Online**: SharePoint Online is a cloud-based service from Microsoft that facilitates collaboration, document management, and content sharing within organizations. It enables users to create, store, and manage web-based documents and data, offering tools for team sites, document libraries, and lists.
 
 - **Fabric Lakehouse**: Microsoft Fabric Lakehouse is a data architecture platform designed to store, manage, and analyze both structured and unstructured data in one unified location. It offers flexibility and scalability, enabling organizations to handle extensive data volumes through a range of tools and frameworks for processing and analysis. The platform integrates seamlessly with other data management and analytics tools, delivering a comprehensive solution for data engineering and analytics.
@@ -54,7 +52,7 @@ Once the environment is provisioned, a virtual machine (JumpVM) and lab guide wi
  
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
-   ![01](../../media/Lab-Guide-first-screenshot.png)
+   ![01](../../media/Lab-Guide-first-screenshot(1).png)
 
 ### Virtual Machine & Lab Guide
  
@@ -64,93 +62,79 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-![Explore Lab Resources](../../media/Environment-details-Screenshot-(1).png)
+![Explore Lab Resources](../../media/Environment-details-Screenshot(1).png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
-![Use the Split Window Feature](../../media/Split-Window-Feature.png)
+![Use the Split Window Feature](../../media/Split-Window-Feature(1).png)
  
 ## Managing Your Virtual Machine
  
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to **Start, Restart and Stop** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
-![Manage Your Virtual Machine](../../media/Managing-your-virtual-machine.png?raw=true)
+![Manage Your Virtual Machine](../../media/Managing-your-virtual-machine(1).png)
 
-## **Lab Guide Zoom In/Zoom Out**
+## Lab Guide Zoom In/Zoom Out
  
 1. To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-   ![Manage Your Virtual Machine](../../media/Zoom-in-and-zoom-out.png)
+   ![Manage Your Virtual Machine](../../media/Zoom-in-and-zoom-out(1).png)
 
-## Let's Get Started with Azure Portal
+## Let's Get Started with Power BI Portal
  
-1. On your virtual machine, click on the Azure Portal icon as shown below:
+1. On your virtual machine, open the **Microsoft Edge**.
  
-    ![Launch Azure Portal](../../media/Get-started-with-Azure-Portal.png)
+    ![](../../media/microsoftedge(1).png)
  
-2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
- 
+2.  In a new tab, navigate to the **Power BI** portal by copying and pasting the following URL into the address bar:
+
+      ```
+      https://app.powerbi.com/
+      ```
+
+3. On the **Enter your email, we'll check if you need to create a new account** tab, you will see the login screen, in that enter the following email/username, and click on **Submit**.
+
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-      ![](../../media/01/image7.png?raw=true)
+      ![](../../media/powerbi(1).png)
  
-3. Next, provide your password:
+4. Next, provide your password:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-      ![](../../media/01/image8.png?raw=true)
+      ![](../../media/powerbi(2).png)
 
-1. If you see the pop-up **Action Required**, click **Ask Later**.
+5. First-time users are often prompted to Stay Signed In. If you see any such pop-up, click on **No**.
    
-     ![](../../media/01/asklater.png?raw=true)
+     ![](../../media/powerbi(3).png)
 
-1. Or if you see the pop-up **Let's keep your account secure**, click **Next (1)**.
-   
-     ![](../../media/01/mfa1.png?raw=true)
+6. In **Microsoft Fabric (Free) license assignment** dialog, click **OK** to proceed.
 
-1. In **Microsoft Authenticator** page, click **Skip setup (1)**.
-   
-     ![](../../media/01/mfa2.png?raw=true)
-     
-1. And in **Stay signed in**, select **No (1)**.
-   
-     ![](../../media/01/mfa3.png?raw=true)
+      ![](../../media/powerbi(4).png)
 
-## Steps to Proceed with MFA Setup if "Ask Later" Option is Not Visible
+7. You will be navigated to the Power BI Home page.
 
-1. At the **"More information required"** prompt, select **Next**.
+      ![](../../media/powerbi(5).png)
 
-1. On the **"Keep your account secure"** page, select **Next** twice.
 
-1. **Note:** If you don’t have the Microsoft Authenticator app installed on your mobile device:
+1. Select **Account manager (1)** top right corner, and click on **Free trial (2)**.
 
-   - Open **Google Play Store** (Android) or **App Store** (iOS).
-   - Search for **Microsoft Authenticator** and tap **Install**.
-   - Open the **Microsoft Authenticator** app, select **Add account**, then choose **Work or school account**.
+   ![Account-manager-start](../../media/amanager(1).png)  
 
-1. A **QR code** will be displayed on your computer screen.
+1. A new prompt will appear asking you to **Activate your 60-day free Fabric trial capacity**, click on **Activate**.
 
-1. In the Authenticator app, select **Scan a QR code** and scan the code displayed on your screen.
+   ![](../../media/amanager(2).png)
 
-1. After scanning, click **Next** to proceed.
+1. Once your trial capacity is ready, you receive a confirmation message. Select **Stay on current page** to begin working in Fabric.
 
-1. On your phone, enter the number shown on your computer screen in the Authenticator app and select **Next**.
-       
-1. If prompted to stay signed in, you can click "No."
- 
-1. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
+   ![](../../media/amanager(3).png) 
 
-1. First-time users are often prompted to Stay Signed In. If you see any such pop-up, click on **No**.
+1. Now, open **Account manager (1)** again, and verify **Trial status (2)**.
 
-1. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
-    
-     ![](../../media/01/gettingstarted-new-2.png?raw=true)
+   ![](../../media/amanager(4).png)
 
-1. Click **Next** from the bottom right corner to embark on your Lab journey!
- 
-   ![Start Your Azure Journey](../../media/next-09.png)
 
 ## Support Contact
 
@@ -161,4 +145,8 @@ Learner Support Contacts:
 - Email Support: cloudlabs-support@spektrasystems.com
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
-## Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
+Now, click on **Next** from the lower right corner to move on to the next page.
+
+   ![Start Your Azure Journey](../../media/nextpage(1).png)
+
+## Happy Learning!!
