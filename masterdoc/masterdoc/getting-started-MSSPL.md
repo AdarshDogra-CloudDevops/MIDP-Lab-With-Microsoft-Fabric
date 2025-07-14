@@ -4,7 +4,7 @@
 
 ## Overview
 
-In this hands-on lab, you will work through a comprehensive data processing and analytics flow. You'll begin by setting up the data source, which consists of Parquet files stored in an unpartitioned structure, with each table organized into its own folder. You will create a pipeline to ingest this historical or one-time data into a Lakehouse. Next, you'll create a Lakehouse, ingest the data into its files section, and then establish Delta Lake tables in the Tables section for structured storage.  
+In this hands-on lab, you will work through a comprehensive data processing and analytics flow. You'll begin by setting up the data source, which consists of Parquet files stored in an unpartitioned structure, with each table organized into its folder. You will create a pipeline to ingest this historical or one-time data into a Lakehouse. Next, you'll create a Lakehouse, ingest the data into its files section, and then establish Delta Lake tables in the Tables section for structured storage.  
 
 You will utilize **Microsoft Fabric**, a unified data analytics platform that integrates seamlessly with various tools and services for end-to-end data processing. Using **Microsoft Fabric Workspace**, you will organize and manage your data assets efficiently. The **Lakehouse** in Microsoft Fabric serves as the central data repository, combining the scalability of a data lake with the structure and performance of a data warehouse. This enables you to perform analytics and reporting tasks effectively while ensuring a structured and organized data flow.
 
@@ -70,7 +70,7 @@ For convenience, you can open the lab guide in a separate window by selecting th
  
 ## Managing Your Virtual Machine
  
-Feel free to **Start, Restart and Stop** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to **Start, Restart, and Stop** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
  
 ![Manage Your Virtual Machine](../../media/Managing-your-virtual-machine(1).png)
 
@@ -92,7 +92,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
       https://app.powerbi.com/
       ```
 
-3. On the **Enter your email, we'll check if you need to create a new account** page, enter the provided email address in the input field and click **Submit** to proceed.
+3. On the **Enter your email, we'll check if you need to create a new account** page, enter the provided email address in the input field, and click **Submit** to proceed.
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
