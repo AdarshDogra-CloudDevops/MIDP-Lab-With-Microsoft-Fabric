@@ -32,8 +32,6 @@ In this hands-on lab, you will work through the architecture flow illustrated in
 
 ## Explanation of Components
 
-- **Microsoft Entra ID**: Microsoft Entra ID is a cloud-based identity and access management service that enables secure access to both external and internal resources. It allows users to seamlessly sign in to a wide range of applications, including Microsoft 365, the Azure portal, and other SaaS apps, as well as custom applications developed for an organization. By managing user identities and controlling access, Microsoft Entra ID enhances security and simplifies the user experience across various platforms and devices.
-
 - **Microsoft Fabric**: Microsoft Fabric is a comprehensive analytics and data platform tailored for enterprises seeking an integrated solution. It covers all aspects of data management, including movement, processing, ingestion, transformation, real-time event routing, and reporting. The platform provides a full range of services, such as Data Engineering, Data Factory, Data Science, Real-Time Analytics, Data Warehousing, and Databases.
 
 - **SharePoint Online**: SharePoint Online is a cloud-based service from Microsoft that facilitates collaboration, document management, and content sharing within organizations. It enables users to create, store, and manage web-based documents and data, offering tools for team sites, document libraries, and lists.
@@ -46,7 +44,7 @@ In this hands-on lab, you will work through the architecture flow illustrated in
 
 # Getting Started with the Lab
  
-Once the environment is provisioned, a virtual machine (JumpVM) and lab guide will be loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the Lab guide to switch to different exercises in the lab guide.
+Once the environment is provisioned, a virtual machine (LabVM) and lab guide will be loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the Lab guide to switch to different exercises in the lab guide.
  
 ## Accessing Your Lab Environment
  
@@ -78,7 +76,7 @@ Feel free to **Start, Restart and Stop** your virtual machine as needed from the
 
 ## Lab Guide Zoom In/Zoom Out
  
-1. To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
+To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
    ![Manage Your Virtual Machine](../../media/Zoom-in-and-zoom-out(1).png)
 
@@ -94,7 +92,7 @@ Feel free to **Start, Restart and Stop** your virtual machine as needed from the
       https://app.powerbi.com/
       ```
 
-3. On the **Enter your email, we'll check if you need to create a new account** tab, you will see the login screen, in that enter the following email/username, and click on **Submit**.
+3. On the **Enter your email, we'll check if you need to create a new account** page, enter the provided email address in the input field and click **Submit** to proceed.
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
@@ -114,12 +112,12 @@ Feel free to **Start, Restart and Stop** your virtual machine as needed from the
 
       ![](../../media/powerbi(4).png)
 
-7. You will be navigated to the Power BI Home page.
+7. You will be navigated to the **Power BI** Home page.
 
       ![](../../media/powerbi(5).png)
 
 
-1. Select **Account manager (1)** top right corner, and click on **Free trial (2)**.
+1. Select **Account manager (1)** from the top right corner, and click on **Free trial (2)**.
 
    ![Account-manager-start](../../media/amanager(1).png)  
 
@@ -127,11 +125,11 @@ Feel free to **Start, Restart and Stop** your virtual machine as needed from the
 
    ![](../../media/amanager(2).png)
 
-1. Once your trial capacity is ready, you receive a confirmation message. Select **Stay on current page** to begin working in Fabric.
+1. After your trial capacity is successfully set up, a confirmation message will appear. Click **Stay on current page** to start working in Fabric.
 
    ![](../../media/amanager(3).png) 
 
-1. Now, open **Account manager (1)** again, and verify **Trial status (2)**.
+1. Open **Account manager (1)** again, and verify the **Trial Status: (2)**.
 
    ![](../../media/amanager(4).png)
 
