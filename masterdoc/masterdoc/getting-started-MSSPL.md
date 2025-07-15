@@ -12,11 +12,9 @@ You will utilize **Microsoft Fabric**, a unified data analytics platform that in
 
 Understand how to set up a Fabric workspace, build a lakehouse, ingest and transform data, and create reports. By the end of this lab, you will be able to:
 
-- **Create a Fabric workspace**: Gain experience in creating and setting up a Fabric workspace, including understanding prerequisites and executing the workspace creation process.
-
-- **Build a lakehouse**: Gain experience in building a lakehouse by activating SharePoint Online, creating the lakehouse, ingesting sample data, and building a report.
-
-- **Ingest data into the lakehouse**: Learn to ingest data into the lakehouse, focusing on efficient and effective data integration methods. 
+- **Create a Fabric workspace:** Gain experience in creating and setting up a Fabric workspace, including understanding prerequisites and executing the workspace creation process.
+- **Build a lakehouse:** Gain experience in building a lakehouse by activating SharePoint Online, creating the lakehouse, ingesting sample data, and building a report.
+- **Ingest data into the lakehouse:** Learn to ingest data into the lakehouse, focusing on efficient and effective data integration methods. 
 
 ## Pre-requisites
 
@@ -32,17 +30,17 @@ In this hands-on lab, you will work through the architecture flow illustrated in
 
 ## Explanation of Components
 
-- **Microsoft Fabric**: Microsoft Fabric is a comprehensive analytics and data platform tailored for enterprises seeking an integrated solution. It covers all aspects of data management, including movement, processing, ingestion, transformation, real-time event routing, and reporting. The platform provides a full range of services, such as Data Engineering, Data Factory, Data Science, Real-Time Analytics, Data Warehousing, and Databases.
+- **Microsoft Fabric:** Microsoft Fabric is a comprehensive analytics and data platform tailored for enterprises seeking an integrated solution. It covers all aspects of data management, including movement, processing, ingestion, transformation, real-time event routing, and reporting. The platform provides a full range of services, such as Data Engineering, Data Factory, Data Science, Real-Time Analytics, Data Warehousing, and Databases.
 
-- **SharePoint Online**: SharePoint Online is a cloud-based service from Microsoft that facilitates collaboration, document management, and content sharing within organizations. It enables users to create, store, and manage web-based documents and data, offering tools for team sites, document libraries, and lists.
+- **SharePoint Online:** SharePoint Online is a cloud-based service from Microsoft that facilitates collaboration, document management, and content sharing within organizations. It enables users to create, store, and manage web-based documents and data, offering tools for team sites, document libraries, and lists.
 
-- **Fabric Lakehouse**: Microsoft Fabric Lakehouse is a data architecture platform designed to store, manage, and analyze both structured and unstructured data in one unified location. It offers flexibility and scalability, enabling organizations to handle extensive data volumes through a range of tools and frameworks for processing and analysis. The platform integrates seamlessly with other data management and analytics tools, delivering a comprehensive solution for data engineering and analytics.
+- **Fabric Lakehouse:** Microsoft Fabric Lakehouse is a data architecture platform designed to store, manage, and analyze both structured and unstructured data in one unified location. It offers flexibility and scalability, enabling organizations to handle extensive data volumes through a range of tools and frameworks for processing and analysis. The platform integrates seamlessly with other data management and analytics tools, delivering a comprehensive solution for data engineering and analytics.
 
-- **Power BI**: Power BI is a suite of software services, applications, and connectors that collaborate to transform disparate data sources into cohesive, visually engaging, and interactive insights. Whether your data comes from an Excel spreadsheet or a mix of cloud-based and on-premises data warehouses, Power BI enables you to seamlessly connect to these sources, uncover and visualize key information, and share insights with anyone you choose.
+- **Power BI:** Power BI is a suite of software services, applications, and connectors that collaborate to transform disparate data sources into cohesive, visually engaging, and interactive insights. Whether your data comes from an Excel spreadsheet or a mix of cloud-based and on-premises data warehouses, Power BI enables you to seamlessly connect to these sources, uncover and visualize key information, and share insights with anyone you choose.
 
-- **SQL**: SQL(Structured Query Language) is a standardized programming language used to manage and manipulate relational databases. It allows users to perform operations such as querying data, inserting, updating, and deleting records, as well as defining and altering database structures. SQL is essential for efficiently handling and analyzing structured data within relational databases.
+- **SQL:** SQL(Structured Query Language) is a standardized programming language used to manage and manipulate relational databases. It allows users to perform operations such as querying data, inserting, updating, and deleting records, as well as defining and altering database structures. SQL is essential for efficiently handling and analyzing structured data within relational databases.
 
-# Getting Started with the Lab
+## Getting Started with the Lab
  
 Once the environment is provisioned, a virtual machine (LabVM) and lab guide will be loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the Lab guide to switch to different exercises in the lab guide.
  
@@ -52,7 +50,7 @@ Once you're ready to dive in, your virtual machine and **Guide** will be right a
  
    ![01](../../media/Lab-Guide-first-screenshot(1).png)
 
-### Virtual Machine & Lab Guide
+## Virtual Machine & Lab Guide
  
 Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
  
@@ -78,7 +76,7 @@ Feel free to **Start, Restart, and Stop** your virtual machine as needed from th
  
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-   ![Manage Your Virtual Machine](../../media/Zoom-in-and-zoom-out(1).png)
+![Manage Your Virtual Machine](../../media/Zoom-in-and-zoom-out(1).png)
 
 ## Let's Get Started with Power BI Portal
  
@@ -104,7 +102,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
  
       ![](../../media/powerbi(2).png)
 
-5. First-time users are often prompted to Stay Signed In. If you see any such pop-up, click on **No**.
+5. If you see the pop-up **Stay Signed in?**, select **No**.
    
      ![](../../media/powerbi(3).png)
 
@@ -115,7 +113,6 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 7. You will be navigated to the **Power BI** Home page.
 
       ![](../../media/powerbi(5).png)
-
 
 1. Select **Account manager (1)** from the top right corner, and click on **Free trial (2)**.
 
@@ -129,10 +126,9 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
    ![](../../media/amanager(3).png) 
 
-1. Open **Account manager (1)** again, and verify the **Trial Status: (2)**.
+1. Open **Account manager (1)** again, and verify the **Trial Status (2)**.
 
    ![](../../media/amanager(4).png)
-
 
 ## Support Contact
 
