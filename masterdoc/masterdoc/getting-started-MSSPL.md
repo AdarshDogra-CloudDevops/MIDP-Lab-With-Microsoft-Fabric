@@ -40,6 +40,9 @@ In this hands-on lab, you will work through the architecture flow illustrated in
 
 - **SQL:** SQL(Structured Query Language) is a standardized programming language used to manage and manipulate relational databases. It allows users to perform operations such as querying data, inserting, updating, and deleting records, as well as defining and altering database structures. SQL is essential for efficiently handling and analyzing structured data within relational databases.
 
+**Fabric trial provides access to most features, but excludes Copilot, private links, and trusted workspace access ([learn more](https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial#overview-of-the-trial-capacity)).**
+
+
 ## Getting Started with the Lab
  
 Once the environment is provisioned, a virtual machine (LabVM) and lab guide will be loaded in your browser. Use this virtual machine throughout the workshop to perform the lab. You can see the number on the bottom of the Lab guide to switch to different exercises in the lab guide.

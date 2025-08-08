@@ -63,6 +63,8 @@ In this lab, the architecture covers two main aspects: first, it explores an int
 
 - **Consume** : Power BI can consume data from the Lakehouse for reporting and visualization. Each Lakehouse has a built-in TDS/SQL endpoint, for easy connectivity and querying of data in the Lakehouse tables from other reporting tools. Additionally, when a Lakehouse is created, a corresponding secondary item called a Warehouse is automatically generated with the same name as the Lakehouse. It provides users with the TDS/SQL endpoint functionality.
 
+**Fabric trial provides access to most features, but excludes Copilot, private links, and trusted workspace access ([learn more](https://learn.microsoft.com/en-us/fabric/fundamentals/fabric-trial#overview-of-the-trial-capacity)).**
+
 ## Getting Started with Lab
 
 **Note:** We recommend having strong internet connectivity while performing the lab. Please ensure you are not connected to a VPN as this can slow down the lab-user experience.
@@ -179,3 +181,4 @@ Learner Support Contacts:
 - Live Chat Support: https://cloudlabs.ai/labs-support
 
 ## Happy Learning!!
+
