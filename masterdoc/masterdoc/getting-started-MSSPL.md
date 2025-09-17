@@ -144,6 +144,6 @@ Learner Support Contacts:
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 
-   ![Start Your Azure Journey](../../media/nextpage(1).png)
+   ![Start Your Azure Journey](../../media/page1.png)
 
 ## Happy Learning!!
