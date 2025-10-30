@@ -125,9 +125,9 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
    ![](../../media/amanager(2).png)
 
-1. After your trial capacity is successfully set up, a confirmation message will appear. Click **Stay on current page** to start working in Fabric.
+1. After your trial capacity is successfully set up, **on the Invite teammates to try Fabric** pop-up, click on **X** button.
 
-   ![](../../media/amanager(3).png) 
+   ![](../../media/amanager(3)upd.png) 
 
 1. Open **Account manager (1)** again, and verify the **Trial Status (2)**.
 
