@@ -17,6 +17,7 @@ Understand how to unify data estates using the Microsoft Intelligent Data Platfo
 - **Data ingestion from a spectrum of analytical and operational data sources into the Lakehouse** : Learn to implement data ingestion pipelines using ADX for streaming data and Synapse pipelines to ingest raw data from analytical and operational sources into the Bronze layer of the Data Lake.
 - **Explore offline data and analytics pipeline using open Delta format and Azure Databricks Delta Live Tables. Stitch streaming and non-streaming data (landed earlier) to create a combined data product to build a simple Lakehouse** : Learn to use the open Delta format and Azure Databricks Delta Live Tables for offline data and analytics pipelines.
 - **Explore Machine Learning and Business Intelligence scenarios on the Lakehouse** : Learn to explore ML and BI scenarios on the Lakehouse using Azure Databricks MLflow, Power BI, and SQL Analytics with Azure Synapse Serverless and Databricks.
+- **Glimpse of Purview to govern the overall data and analytics estate.** : Explore the wide range of possibilities — including data discovery and classification, end-to-end lineage, a centralized data catalog, policy and access control enforcement, and integration with Microsoft Fabric to ensure compliant, discoverable, and well-governed analytics across your estate.
 
 ## Pre-requisites
 
