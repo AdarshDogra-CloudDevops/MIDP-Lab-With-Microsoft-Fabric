@@ -228,15 +228,6 @@ Let's see how, on an ongoing basis, if there are any business needs to run ad-ho
 
 We will discuss that in more detail in the next task.
 
--------------
-
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - If you receive a success message, you can proceed to the next task.
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-   > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-   <validation step="0e18520e-56dc-4341-a12b-17e1967937e7" />
-
 ## Task 3.3: Explore SQL Analytics with Azure Synapse Serverless. <a name="sql-analytics-with-synapse"></a>
 
 Data engineers are often required to support ad hoc and time-critical queries in addition to regularly scheduled reports.
