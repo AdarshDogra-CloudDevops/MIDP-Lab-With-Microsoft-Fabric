@@ -36,13 +36,13 @@ We would also like to understand our customer's sentiments so we can create targ
 
 2. Scroll down the notebook to review the **cmd 11** cell and then review the output for **Exploratory Data Analysis**.
 
-   ![cmd 11](../media/image3103.png) 
+   ![cmd 11](../media/image3103upd.png) 
 
 3. Review the **cmd 29** cell.
 
    By analyzing Customer Churn data, we create multiple Machine Learning models.
 
-   ![Runs using a parallel coordinates](../media/image3115.png) 
+   ![Runs using a parallel coordinates](../media/image3115upd.png) 
 
    The best ML model for Customer Churn is selected and registered with the Azure model registry.
 
