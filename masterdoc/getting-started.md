@@ -17,6 +17,7 @@ Understand how to unify data estates using the Microsoft Intelligent Data Platfo
 - **Data ingestion from a spectrum of analytical and operational data sources into the Lakehouse** : Learn to implement data ingestion pipelines using ADX for streaming data and Synapse pipelines to ingest raw data from analytical and operational sources into the Bronze layer of the Data Lake.
 - **Explore offline data and analytics pipeline using open Delta format and Azure Databricks Delta Live Tables. Stitch streaming and non-streaming data (landed earlier) to create a combined data product to build a simple Lakehouse** : Learn to use the open Delta format and Azure Databricks Delta Live Tables for offline data and analytics pipelines.
 - **Explore Machine Learning and Business Intelligence scenarios on the Lakehouse** : Learn to explore ML and BI scenarios on the Lakehouse using Azure Databricks MLflow, Power BI, and SQL Analytics with Azure Synapse Serverless and Databricks.
+- **Glimpse of Purview to govern the overall data and analytics estate.** : Explore the wide range of possibilities — including data discovery and classification, end-to-end lineage, a centralized data catalog, policy and access control enforcement, and integration with Microsoft Fabric to ensure compliant, discoverable, and well-governed analytics across your estate.
 
 ## Pre-requisites
 
@@ -50,107 +51,61 @@ In this lab, the architecture covers two main aspects: first, it explores an int
 - **Pipelines** : Orchestrate and automate data ingestion and processing tasks, integrating various data sources and ensuring smooth data movement through the analytics workflow.
 - **Apache Spark** : Provides a powerful, distributed computing engine for large-scale data processing, supporting complex transformations and analytics with high performance and scalability
 
-## Getting Started with the Lab
- 
-Welcome to your Analytics in the Microsoft Intelligent Data Platform with Microsoft Fabric Workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
- 
+## Getting Started with Lab
+
+Welcome to your Real Time Analytics with Synapse Workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience.
+
 ## Accessing Your Lab Environment
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
 
-![01](../media/01/new-real-time-feb-1.png?raw=true)
+   ![](../media/gg_1upd.png)
 
-### Virtual Machine & Lab Guide
- 
-Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
- 
 ## Exploring Your Lab Resources
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
- 
-![](../media/01/new-real-time-feb-2.png)
- 
+
+   ![](../media/gg_2upd.png)
+
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the Top right corner.
  
-![](../media/01/new-real-time-feb-16.png)
- 
+   ![](../media/gg_3upd.png)
+
 ## Managing Your Virtual Machine
  
-Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+Feel free to **Start, Stop, or Restart** your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
 
-![](../media/01/new-real-time-feb-3.png)
+   ![](../media/gg_4upd.png)
 
-### Known Issues
+## Lab Guide Zoom In/Zoom Out
+ 
+To adjust the zoom level for the environment page, click the **A↕: 100%** icon located next to the timer in the lab environment.
 
-1. If you run into an issue where a file starts downloading (eg. file.html) in the VM or get stuck in between, refresh your browser and continue performing the lab:
+   ![](../media/new-get-start-25-6.png)
 
-   ![04](../media/01/04.png?raw=true)
+## Let's Get Started with Azure Portal
 
-2. If you come across the message: **RDP Gateway is in Running state. Please refresh after 1 or 2 minutes**. Please wait for 2 minutes and then navigate to **Resources Tab**, and click on the **Refresh button**:
+1. In the LabVM, click on the **Azure Portal** shortcut of the Microsoft Edge browser, which is created on the desktop.
 
-   ![05](../media/01/05.png?raw=true)
+      ![](../media/gg_5upd2.png)
 
-   **Note:** If you are not using the environment, pause the VM by navigating to the **Resources Tab** and de-allocate it.
+1. On the **Sign in to Microsoft Azure** tab, you will see the login screen. Enter the following email/username and click **Next**.
 
-   ![06](../media/01/new-real-time-feb-17.png?raw=true)
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
 
-1. If you wish to start the environment or resume the lab, navigate to the **Resources Tab** and start it (It may take up to 5 minutes for the VM to be up and running).
+        ![](../media/sc900-image-1upd.png)
 
-     ![07](../media/01/new-real-time-feb-18.png?raw=true)
-   
-   **Note:** If you are unable to proceed with the lab execution, here are the links to the click-by-click version of the lab to continue.   
+1. Now enter the following temporary access pass and click on **Sign in**.
 
-   [click-by-click without story](https://content.cloudguides.com/guides/Analytics%20in%20MIDP%20-%20Interactive%20Experience)
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
 
-   [click-by-click with story](https://content.cloudguides.com/guides/Analytics%20in%20MIDP%20-%20Interactive%20Experience%20with%20a%20story)
+       ![](../media/azurepassword.png)
 
+1. If you see the pop-up **Stay Signed in?**, select **No**.
 
-## Login to Azure Portal
-
-1. In the JumpVM, click on the Azure portal shortcut of the Microsoft Edge browser which is created on the desktop.
-
-   ![08](../media/01/new-real-time-feb-4.png?raw=true)
-
-1. When you click on Azure portal, the edge browser will ask you to sign in to sync data, click on **Start without your data**.
-
-   ![09](../media/01/09.png?raw=true)
-
-1. On the next window, click on **Continue without this data**.
-
-   ![10](../media/01/10.png?raw=true)
-
-1. On the next window, click on **Confirm and start browsing**.
-
-   ![11](../media/01/11.png?raw=true)
-
-1. Now, you will see three tabs in the Edge browser, close the tab named **Welcome to Microsoft Edge** and the other tab named **Welcome**.
-
-1. On the **Sign in to Microsoft Azure** window, you will see the login screen. Enter the following username and click on **Next**.
-
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
-
-      ![12](../media/01/12.png?raw=true)
-
-1. Now enter the following password and click on **Sign in**.
-
-   * Password: <inject key="AzureAdUserPassword"></inject>
-
-      ![13](../media/01/13.png?raw=true)
-
-1. First-time users are often prompted to **Stay Signed In**, if you see this pop-up, click on **Yes**.
-
-
-1. If you see the pop-up **Action Required**, keep default and then click on **Ask later**. If you see the pop-up **Help us protect your account**, click on **Skip for now(14 days until this is required)**, and then click on **Next**.
-
-   ![14](../media/01/14.png?raw=true)
-
-   >**NOTE:** Do not enable MFA, select **Ask Later**.
-
-1. If you see the pop-up **You have free Azure Advisor recommendations!**, close the window to continue the lab.
-
-1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
+1. If a **Welcome to Microsoft Azure** popup window appears, click **Cancel** to skip the tour.
 
 1. In the search results pane, select **Resource groups**.
 

@@ -1,6 +1,6 @@
-# Exercise 2: Explore the offline data and analytics pipeline using open Delta format and Azure Databricks Delta Live Tables. Stitch streaming and non-streaming data landed earlier to create a combined data product to build a simple Lakehouse. <a name="delta-live-table-pipeline"></a>
+# Exercise 2: Explore the offline data and analytics pipeline using open Delta format
 
-### Estimated Duration : 65 minutes
+### Estimated Duration : 60 minutes
 
 Analyzing disparate data sources in an integrated way has been a challenge for Wide World Importers. In the past, different teams at the company were assigned to analyze customer churn, social media trends, marketing campaigns, and sales forecasts. So, it was left to business analysts and executives to synthesize these datasets into a data-driven, decision-making solution. By delivering a Lakehouse, it becomes simpler for teams to collaborate in a unified workspace to process, analyze, and model data.
 
@@ -12,7 +12,6 @@ The data source for the pipeline is the Bronze layer in ADLS Gen2, which was loa
 
 - Task 2.1: Set up Azure Databricks environment
 - Task 2.2: Review sentiment analysis model training
-- Task 2.3: Create a Delta Live Table pipeline
 
 ## Task 2.1: Set up Azure Databricks environment <a name="adb-env"></a>
 
@@ -58,87 +57,7 @@ In this task, you will explore the sentiment analysis model training notebook. T
 
    > **Note: DO NOT** run this script.
 
-   *Running this script will generate an ML model ID. This Model ID is used by the Delta Live Pipeline that we will create in the next task to perform ML operations on Twitter data.* 
-
----
-
-   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   > - If you receive a success message, you can proceed to the next task.
-   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-   > - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-   <validation step="c3ea6e56-54ba-4a36-b162-92f8831729b1" />
-
-## Task 2.3: Create a Delta Live Table pipeline. <a name="dlt-pipeline"></a>
-
-In this task, you will create a Delta Live Table pipeline.
-
-*Delta Live Tables (DLT) make it easy to build and manage reliable data pipelines that deliver high-quality data on Delta Lake. DLT helps data engineering teams simplify ETL development and management with declarative pipeline development, automatic data testing, and deep visibility for monitoring and recovery.*
-
-1. At the left, select the **Delta Live Tables** under Data Engineering and click on **Create Pipeline**.
-
-   ![](../media/04/midp-img-3.png)
-
-2. In the **Create pipeline** window, in the **Pipeline name** box, enter a name like **Delta Live Table Pipeline**.
-
-   ![create pipeline](../media/deltalivepipelines.png) 
-
-3. To set the **Notebook libraries** property, select the notebook icon (at the right).
-
-   ![Notebook libraries](../media/04/E2-T2.3-S5.png)
-
-4. In the **Select a notebook** window, select the **03_Sentiment_Analytics_On_Delta_Live_Tables** notebook.
-
-   >**Note:** Due to time constraints, we will add only **03_Sentiment_Analytics_On_Delta_Live_Tables** notebook library to the pipeline in the lab session.
-
-   ![Select Notebook](../media/new-real-time-feb-13.png) 
-   
-   >**Note:** (TO BE SKIPPED)
-   >
-   >Similarly, we can repeat steps 5 and 6 to add the other three notebook libraries. 
-   >
-   >* 01_campaign_analytics_DLT
-   >  
-   >* Campaign Powered by Twitter
-   >
-   >* Retail Sales Data Prep Using Spark DLT
-   
-5. In the **Storage location** box, enter: **/mnt/delta-files/lakedb/** **(1)**.
-
-6. In the **Target schema** box, enter: **lakedb** **(2)**.
-
-7. Select **Create** **(3)**.
-
-   ![Notebook libraries](../media/04/E2-T2.3-S7.png)
-
-   *Once you select **Create**, it will create the Delta Live Table pipeline with all the notebook libraries added to the pipeline.*
-   > **Note: DO NOT** select **Start**.
- 
-   ![Do not select Start](../media/img239.png) 
-
-   *If you click on **Start**, Databricks will start executing the pipeline which will take approximately 10 minutes.*
- 
-   ![Wating for the job to complete](../media/image2317.png) 
-
-   >**Note:** The following instructions are for informational purposes only. Due to time constraints, we will not start the pipeline in the lab session.
-
-9. After approx 10 minutes, this is the view you would have seen. **Observe** the data lineage of Bronze, Silver, and a variety of Gold tables.
-
-   ![Medallion Architecture](../media/image2318.png) 
-
-   This pipeline is based on the medallion architecture, a simple yet powerful design pattern for organizing your Lakehouse.
- 
-   **Bronze** data is usually raw, unprocessed data from source systems.
-
-   **Silver** data is created by cleaning and organizing raw data for further analysis and exploration.
-
-   **Gold** data is the finished analytical products – star schema tables for BI applications, engineered features for ML models, and shareable data assets for third parties, Data Mesh architectures, and other downstream consumers.
-
-As you can see in this diagram, all the data is first landed in the Lakehouse. This is where it is further processed into different medallion layers, as discussed earlier.
-
-The Twitter sentiment and campaign data are stitched together to create a combined data product. This product is further consumed in the next exercise for machine learning and business intelligence use cases.
-
-This information can then be piped into Microsoft Purview as a part of an overall view of your Azure data estate. The Lakehouse was designed around simplicity, openness, and collaboration. It is an extremely powerful architecture for addressing the many unique and interesting problems of a modern cloud data stack ready to be leveraged by Wide World Importers.
+   *Running this script will generate an ML model ID. This Model ID is used by the Delta Live Pipeline* 
 
 ## Summary
 
