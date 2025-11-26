@@ -1,4 +1,6 @@
-### Exercise 1: Glimpse of Purview to govern the overall data and analytics estate. <a name="tee-up-the-purview"></a>
+# Exercise 4: Glimpse of Purview to govern the overall data and analytics estate.
+
+### Estimated Duration : 15 minutes
 
 Microsoft Purview provides a unified data governance service that helps manage and govern Wide World Importers’ data, which is stored in multi-cloud environments and in data sources such as Oracle, Teradata, ADLS Gen2, and Azure SQL Database.
 
@@ -11,8 +13,6 @@ In this exercise, you will explore the Wide World Importers data estate that’s
 2. In the **Microsoft Purview accounts** page, select the resource that has a name starting with **purviewanalytics**.
 
     >**Note:** Each user has their own unique instance of this resource.
-
-    ![Select the resource](https://github.com/CloudLabsAI-Azure/Ignite-lab/blob/main/media/img403.png?raw=true)
 
 3. In the Microsoft Purview accounts resource page, in the **Open Microsoft Purview Governance Portal (new)** tile, select the **Open** link.
 
@@ -48,5 +48,8 @@ In this lab, we covered the following:
 
 4. Finally, we leveraged Purview for data governance.  
 
-**Congratulations!!!**
-**You have completed the Analytics in MIDP Lab.**
+## Summary
+
+In this exercise, you have explored on the basic features of Microsoft Purview to govern the overall data and analytics estate.
+
+### You have successfully completed the Real Time Analytics with Synapse lab!

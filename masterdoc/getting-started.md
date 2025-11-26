@@ -39,15 +39,10 @@ In this lab, the architecture covers two main aspects: first, it explores an int
 - **Microsoft Purview** : Ensures comprehensive data governance and cataloging, providing a unified view and management of the entire data estate.
 - **Microsoft Fabric** : Offers a unified platform for data integration, transformation, and reporting, streamlining processes and reducing silos within the data ecosystem.
 - **Power BI** : Enables interactive data visualization and reporting, allowing users to derive actionable insights from the data lakehouse.
-
 - **Delta Lake** : Standardizes data storage with a unified format that supports reliable and scalable data processing across various analytics tools.
-
 - **Lakehouse** : Combines the best features of data lakes and data warehouses, offering a unified data platform that supports both structured and unstructured data for comprehensive analytics, machine learning, and business intelligence.
-
 - **Notebooks** : Provide an interactive environment for data exploration and analysis, allowing users to perform ad-hoc queries and visualize results using code or SQL.
-
 - **Dataflows** : Enable the design and automation of data transformation processes within a visual interface, simplifying the ETL (Extract, Transform, Load) workflows.
-
 - **Pipelines** : Orchestrate and automate data ingestion and processing tasks, integrating various data sources and ensuring smooth data movement through the analytics workflow.
 - **Apache Spark** : Provides a powerful, distributed computing engine for large-scale data processing, supporting complex transformations and analytics with high performance and scalability
 
@@ -99,7 +94,7 @@ To adjust the zoom level for the environment page, click the **A↕: 100%** icon
 
 1. Now enter the following temporary access pass and click on **Sign in**.
 
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject>
 
        ![](../media/azurepassword.png)
 
