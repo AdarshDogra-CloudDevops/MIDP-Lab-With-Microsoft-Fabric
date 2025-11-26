@@ -1,6 +1,6 @@
 # Exercise 2: Explore the offline data and analytics pipeline using open Delta format
 
-### Estimated Duration : 60 minutes
+### Estimated Duration : 45 minutes
 
 Analyzing disparate data sources in an integrated way has been a challenge for Wide World Importers. In the past, different teams at the company were assigned to analyze customer churn, social media trends, marketing campaigns, and sales forecasts. So, it was left to business analysts and executives to synthesize these datasets into a data-driven, decision-making solution. By delivering a Lakehouse, it becomes simpler for teams to collaborate in a unified workspace to process, analyze, and model data.
 
@@ -10,10 +10,12 @@ The data source for the pipeline is the Bronze layer in ADLS Gen2, which was loa
 
 ## Objectives
 
-- Task 2.1: Set up Azure Databricks environment
-- Task 2.2: Review sentiment analysis model training
+- Task 1: Set up Azure Databricks environment
+- Task 2: Review sentiment analysis model training
 
-## Task 2.1: Set up Azure Databricks environment <a name="adb-env"></a>
+## Task 1: Set up Azure Databricks environment
+
+In this task you will set up Azure Databricks environment.
 
 1. In the Azure portal web session (tab), in the search box (located across the top of the page), enter **Azure Databricks**.
 
@@ -43,9 +45,7 @@ The data source for the pipeline is the Bronze layer in ADLS Gen2, which was loa
 
    *In exercise 1, we extracted data from a spectrum of data sources and landed it into the ADLS Gen2 data lake. To access this data from the ADLS Gen2 data lake, we need to mount it on the Azure Databricks filesystem. Executing this script will mount ADLS Gen2 to Azure Databricks.*
 
----
-
-## Task 2.2: Review sentiment analysis model training. <a name="sentiment-model"></a>
+## Task 2: Review sentiment analysis model training. <a name="sentiment-model"></a>
 
 In this task, you will explore the sentiment analysis model training notebook. This notebook is used to retrieve the model ID that’s used by the DLT pipeline for further data processing.
 
