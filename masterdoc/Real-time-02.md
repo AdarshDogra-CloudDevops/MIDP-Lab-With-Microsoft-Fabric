@@ -13,7 +13,9 @@ The data source for the pipeline is the Bronze layer in ADLS Gen2, which was loa
 - Task 1: Set up Azure Databricks environment
 - Task 2: Review sentiment analysis model training
 
-## Task 1: Set up Azure Databricks environment <a name="adb-env"></a>
+## Task 1: Set up Azure Databricks environment
+
+In this task you will set up Azure Databricks environment.
 
 1. In the Azure portal web session (tab), in the search box (located across the top of the page), enter **Azure Databricks**.
 

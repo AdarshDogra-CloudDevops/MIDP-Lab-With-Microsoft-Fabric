@@ -194,9 +194,7 @@ In this task, you will use ADX to explore thermostat data from the stores stream
 
 44. Notice that the temperature in the Miami store is oscillating between 65 and 70 degrees Fahrenheit. Based on these insights, we are able to adjust the temperatures to optimal levels.
 
-## Task 2: Explore a few Synapse pipelines that ingest raw data from analytical data sources to the Bronze layer of the Data Lake. <a name="analytical-sources"></a>
-  
-In your next challenge, you will ingest historical data from various data sources.   
+## Task 2: Explore a few Synapse pipelines that ingest raw data from analytical data sources to the Bronze layer of the Data Lake. 
 
 In this task, you will ingest campaign data from Snowflake and customer churn data from Teradata into the data lake.
 
