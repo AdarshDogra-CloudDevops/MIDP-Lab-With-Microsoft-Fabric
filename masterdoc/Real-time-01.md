@@ -36,7 +36,7 @@ In this task, you will use ADX to explore thermostat data from the stores stream
 
 5. In the filtered results, select the **App Service** named **app-realtime-kpi-analytics-<inject key="DeploymentID" enableCopy="false"/>**.
 
-   ![Select the app service](../media/imageAppServices.png) 
+   ![Select the app service](../media/E1T1S5.png) 
 
 6. Select **Browse** (on the top left). This action will start the data simulation required to execute this task successfully (this will take 3-5 mins).
 
@@ -106,28 +106,29 @@ In this task, you will use ADX to explore thermostat data from the stores stream
 
     ![Open Azure Data Explorer](../media/img115aupd.png) 
 
-    >**Note:** If a pop-up shows to trust the connection, please click on **Trust**. This will automatically create the connection.
+    >**Note:** If a pop-up shows to trust the connection, copy the Cluster URI then click on **Trust**. This will automatically create the connection. 
 
 20. In Azure Data Explorer Studio, locate the **Home** section in the left pane, and click on **Get Data** button.
 
     ![DataManagement](../media/new-real-time-feb-8.png)
 
-21. On the **Get Data** page, select the  **Event Hub** section, **Continuous** button.
+21. On the **Get Data** page, select the  **Event Hubs** section.
 
-22. Select the **analyticspool<inject key="DeploymentId"></inject>.synapse<inject key="DeploymentId"></inject>** and select AnalyticsDB and click on **+ New table**
+22. Select the **analyticspool<inject key="DeploymentId"></inject>.synapse<inject key="DeploymentId"></inject>** and select AnalyticsDB and click on **+ New table**. 
 
     ![Open Azure Data Explorer](../media/img115bupd.png) 
-> **Follow the below steps only if you cannot see the Event Hub** if you can see, then proceed to step 23
 
-> Select the **Add Connection** option.
->
-> ![DataManagement](../media/exercise1-addconection.png)
->
->**Note:** As you have clicked on trust in earlier steps, you will be able to see a connection already present here.
->
-> On the **Add Connection** page, enter the Cluster URI and proceed by clicking on the **Add** button.
->
-> ![DataManagement](../media/exercise1-adduri.png)    
+    > **Note:** **Follow the below steps only if you cannot see the Event Hub** if you can see, then proceed to step 23.
+
+    > Select the **Add Connection** option.
+    >
+    > ![DataManagement](../media/exercise1-addconection.png)
+    >
+    >**Note:** As you have clicked on trust in earlier steps, you will be able to see a connection already present here.
+    >
+    > On the **Add Connection** page, enter the Cluster URI you copied earlier and proceed by clicking on the **Add** button.
+    >
+    > ![DataManagement](../media/exercise1-adduri.png)    
      
 23. Upon opening the **Configure the data source** page, choose the default **subscription** from the dropdown list in the Subscription section and enter the below details:
 

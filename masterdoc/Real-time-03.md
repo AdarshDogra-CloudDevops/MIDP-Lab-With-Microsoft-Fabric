@@ -114,13 +114,13 @@ In this task, you will work with Power BI to reveal some valuable insights.
 
 2. In the workspaces pane, select **My Workspace**.
 
-    ![](../media/05/E3-T3.2-S2-PowerBi.png)
+    ![](../media/E3T2S1.png)
 
 3. To upload a Power BI Desktop file, click on the **Import (1) >>Report or Paginated Report (2) >>From this Computer** **Upload (3)**.
 
     > **Note:** Please make sure you are **logged into the VM** for the following steps.
 
-    ![](../media/new-real-time-feb-14.png)
+    ![](../media/E3T2S2.png)
 
 4. In the **Open** window, navigate to the **C:\LabFiles\artifacts\reports** folder, and select the **AnalyticsDemoReport.pbix** file.
 
@@ -132,7 +132,7 @@ In this task, you will work with Power BI to reveal some valuable insights.
 
 7. To open the report, select the **AnalyticsDemoReport**.
 
-    ![](../media/new-real-time-feb-15.png)
+    ![](../media/E3T2S7.png)
 
      > **Note:** If needed, collapse the panes on the left using the << icons on the top right of the pane. This will maximize the screen and provide a better visual.
 
@@ -238,7 +238,7 @@ In this task, you will learn how to perform custom SQL and business intelligence
 
 2. On Storage account pane, select **Access Control (IAM) (1)**, select **+Add (2)** and click on **Add role assignment (3)**.
 
-    ![](../media/03/midp-img-15.png)
+    ![](../media/E3T3S2.png)
 
 3. In the **Add role assignment** pane, search and select **Storage Blob Data Owner** role and click on **Next**.
 
@@ -246,19 +246,17 @@ In this task, you will learn how to perform custom SQL and business intelligence
 
 4. In the next pane, use **+Select members (1)**, search and select the user **ODL_User <inject key="DeploymentId"></inject> (2)** which is assigned to you for this session and click on **Review + assign**
 
-    ![](../media/03/midp-img-17.png)
+    ![](../media/E3T3S4.png)
 
     >**Note:** Once the role is assigned, make sure to log out and log back in to ensure that role assignment is updated.
 
-5. In the search box (located across the top of the page) on the Azure portal web session (tab), enter: **Synapse Analytics**
-
-6. In the search results pane, select **Azure Synapse Analytics**.
+5. In the search box (located across the top of the page) on the Azure portal web session (tab), enter **Synapse Analytics** and select **Azure Synapse Analytics**.
 
    ![Select Azure Synapse Analytics](../media/img332.png)
 
-7. In the filtered results, select the Azure Synapse resource.
+7. In results, select the Azure Synapse resource.
 
-   ![Select Azure Synapse resource](../media/image3303.png)
+   ![Select Azure Synapse resource](../media/E3T3S7.png)
 
    >**Note:** You might see Synapse workspace resource name with a different suffix in your Azure Portal.
 
@@ -278,7 +276,7 @@ In this task, you will learn how to perform custom SQL and business intelligence
 
       ![Query Campaign And Twitter Data Using TSQL Language](../media/image3307.png)
    
-   *You can directly query external files stored in ADLS Gen2 storage without first copying or loading the data into a specialized store. You can query the data by using the familiar T-SQL syntax.*
+    *You can directly query external files stored in ADLS Gen2 storage without first copying or loading the data into a specialized store. You can query the data by using the familiar T-SQL syntax.*
 
 12. In the **Connect to** dropdown list, ensure that **Built-in** is selected.
 
@@ -295,11 +293,11 @@ In this task, you will learn how to perform custom SQL and business intelligence
 
       ![Select Run](../media/img3312.png)
    
-   We can also directly query external files stored in Azure storage without copying or loading data into a specialized store, all using familiar T-SQL dialects. This is a quick and easy way to read the content of the files without pre-configuration.
+    We can also directly query external files stored in Azure storage without copying or loading data into a specialized store, all using familiar T-SQL dialects. This is a quick and easy way to read the content of the files without pre-configuration.
    
-   A default, built-in, endpoint for this service is provided within Synapse workspace.
+      A default, built-in, endpoint for this service is provided within Synapse workspace.
 
-   *You will now create a view of the campaign file.*
+      *You will now create a view of the campaign file.*
 
 17. To create a view that queries the first 100 campaigns, select lines 35-44 in the script file.
 
@@ -307,11 +305,11 @@ In this task, you will learn how to perform custom SQL and business intelligence
 
       ![Select Run](../media/query35-44.png)
    
-   With the relevant metadata placed in an Azure storage account, the views will allow us to reuse those queries in other places as well such as Power BI, in conjunction with a serverless SQL pool.
+      With the relevant metadata placed in an Azure storage account, the views will allow us to reuse those queries in other places as well such as Power BI, in conjunction with a serverless SQL pool.
 
-   *Executing ad hoc queries and creating views over data in the data lake by using a Synapse serverless SQL pool is straightforward*.
+      *Executing ad hoc queries and creating views over data in the data lake by using a Synapse serverless SQL pool is straightforward*.
 
-   To verify the view that just got created.
+      To verify the view that just got created.
 
 19. Select **Data** from the left pane.
 
@@ -333,17 +331,17 @@ In this task, you will explore some SQL analytics features of Azure Databricks, 
 
 2. In the search results pane, select Azure Databricks.
 
-   ![Select Azure Databricks](../media/image3402.png)
+   ![Select Azure Databricks](../media/E3T4S2.png)
 
 3. In the **Azure Databricks** page, select the resource that has a name starting with **databricks**.
 
    *Note: Each student has their own unique instance of this resource. Each Azure Databricks workspace is provisioned with a full-featured development environment.*
 
-   ![Select Azure Databricks resource](../media/img343.png)
+   ![Select Azure Databricks resource](../media/E3T4S3.png)
 
 4. In the Azure Databricks resource page, select **Launch Workspace**.
   
-   ![Select Azure Databricks resource](../media/image2104.png)
+   ![Select Azure Databricks resource](../media/E3T4S4.png)
 
    *A new web session (tab) opens.*
 
