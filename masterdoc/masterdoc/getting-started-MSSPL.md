@@ -61,13 +61,13 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-![Explore Lab Resources](../../media/updtenv.png)
+![Explore Lab Resources](../../media/env.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
-![Use the Split Window Feature](../../media/updatedsplit.png)
+![Use the Split Window Feature](../../media/split.png)
  
 ## Managing Your Virtual Machine
  
@@ -97,17 +97,17 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-      ![](../../media/powerbi(1).png)
+      ![](../../media/pbilogin.png)
  
 4. Next, provide your password:
  
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
-      ![](../../media/powerbi(2).png)
+      ![](../../media/GSpwd.png)
 
 5. If you see the pop-up **Stay Signed in?**, select **No**.
    
-     ![](../../media/powerbi(3).png)
+     ![](../../media/GSno.png)
 
 6. In **Microsoft Fabric (Free) license assignment** dialog, click **OK** to proceed.
 
@@ -127,11 +127,11 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
 1. After your trial capacity is successfully set up, **on the Invite teammates to try Fabric** pop-up, click on **X** button.
 
-   ![](../../media/amanager(3)upd.png) 
+   ![](../../media/invite.png) 
 
 1. Open **Account manager (1)** again, and verify the **Trial Status (2)**.
 
-   ![](../../media/amanager(4).png)
+   ![](../../media/trialstatus.png)
 
 ## Support Contact
 
