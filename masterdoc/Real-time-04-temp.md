@@ -8,29 +8,25 @@ In this exercise, you will explore the Wide World Importers data estate that’s
 
 1. In the Azure portal, enter **Microsoft Purview (1)** in the search box at the top of the page and select **Microsoft Purview accounts (2)** from the search results.
 
-   ![Search Microsoft Purview](https://github.com/CloudLabsAI-Azure/Ignite-lab/blob/main/media/img402.png?raw=true)
+   ![](../media/E4S1.png)
 
 2. In the **Microsoft Purview accounts** page, select the resource that has a name starting with **purviewanalytics**.
 
+    ![](../media/E4S2.png)
+
     >**Note:** Each user has their own unique instance of this resource.
 
-3. In the Microsoft Purview accounts resource page, in the **Open Microsoft Purview Governance Portal (new)** tile, select the **Open** link.
+3. In the Microsoft Purview accounts resource page, in the **Open Microsoft Purview Governance Portal (classic)** tile, select the **Open** link.
 
-    ![](../media/13082024upd.png)
+    ![](../media/E4S3.png)
 
     *Microsoft Purview Governance Portal opens in a new web session (tab).*
 
-1. Close all the pop-ups in the Purview portal and then **turn off** the toggle in **New Microsoft Purview portal**
+1. Close all the pop-ups in the Purview portal.
 
-    ![](../media/130820242upd.png)
+1. In the Microsoft Purview Portal, select **Browse assets**.
 
-1. Click on **Switch** in **Microsoft Azure governance portal**
-
-    ![](../media/130820243upd.png)
-
-1. In the Microsoft Purview Governance Portal, select **Browse assets**.
-
-    ![](../media/GL1-T1-S4upd.png)
+    ![](../media/E4S6.png)
 
 1. "Browse assets" in the Microsoft Purview portal is a data discovery feature that allows you to explore your organization's data catalog by navigating a structured hierarchy, much like using a file explorer. Instead of searching for a specific term, you browse through logical "Collections" (like 'Finance' or 'Marketing') or by technology "Source Type" (like 'Azure SQL Databases' or 'Power BI'). This method is ideal for discovering what data is available within different business units and understanding how your data estate is organized.
 
