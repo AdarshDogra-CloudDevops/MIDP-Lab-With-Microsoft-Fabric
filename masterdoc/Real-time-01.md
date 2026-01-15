@@ -183,7 +183,7 @@ In this task, you will use ADX to explore thermostat data from the stores stream
 
 43. In the **Results** pane (located along the bottom), review the query result expressed as a chart. Please note that it may take up to 2-3 minutes to accumulate data. If you do not see any result please re-run the query after some time. 
 
-    >**Note:** If you don't see data in the query result, wait for a few minutes and try again since the data will take a few minutes to start streaming. In case your query returns an error, chances are that the thermostat table was not created successfully in previous steps. You may have to create that table with a different name e.g. Thermostat1, update the KQL query accordingly and re-execute the KQL query.  
+    >**Note:** If you don't see data in the query result, wait for a few minutes and try again since the data will take a few minutes to start streaming. Meanwhile, you can proceed with the next exercise and check on this later. In case your query returns an error, chances are that the thermostat table was not created successfully in previous steps. You may have to create that table with a different name e.g. Thermostat1, update the KQL query accordingly and re-execute the KQL query.  
 
     ![Review the query result ](../media/img_graph1upd1.png) 
 
