@@ -222,9 +222,9 @@ In this task, you will ingest campaign data from Snowflake and customer churn da
   
 In this task, you will explore the design of a Synapse pipeline. This pipeline is designed to ingest raw data from various operational sources into the data lake.
 
-1. In the **Integrate** pane, expand the **Landing Operational Store Data** folder, and select the **Store Transactions Data from SQL DB** pipeline.
+1. In the **Integrate (1)** pane, expand the **Landing Operational Store Data (2)** folder, and select the **Store Transactions Data from SQL DB (3)** pipeline.
 
-   ![Landing Operational Store Data](../media/image1309upd.png) 
+   ![Landing Operational Store Data](../media/E1T3S1.png) 
 
     *The **Store Transactions Data from SQL DB** pipeline has two activities. The first one runs a lookup of data at the source Azure SQL Database connection. The next activity brings that data into the Bronze layer in ADLS Gen2*.
 
@@ -236,7 +236,7 @@ In this task, you will explore the design of a Synapse pipeline. This pipeline i
 
 4. In the **Sink dataset** dropdown list, notice that **DestinationDataset** is selected.
 
-   ![Sink dataset](../media/image1312.png) 
+   ![Sink dataset](../media/E1T3S4.png) 
 
 ## Summary
 

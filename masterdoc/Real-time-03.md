@@ -268,11 +268,9 @@ In this task, you will learn how to perform custom SQL and business intelligence
 
    *In Synapse Studio, you can use T-SQL to directly query data in a data lake by using a serverless SQL pool. That way, you can achieve rapid data exploration.*
 
-10. In the **Develop** pane, expand **SQL scripts**.
+10. In the **Develop (1)** pane, expand **SQL scripts (2)**. Select the **1 Query Campaign And Twitter Data Using T-SQL Language (3)** script.
 
-11. Select the **1 Query Campaign And Twitter Data Using T-SQL Language** script.
-
-      ![Query Campaign And Twitter Data Using TSQL Language](../media/image3307.png)
+      ![Query Campaign And Twitter Data Using TSQL Language](../media/E3T3S10.png)
    
     *You can directly query external files stored in ADLS Gen2 storage without first copying or loading the data into a specialized store. You can query the data by using the familiar T-SQL syntax.*
 
@@ -289,7 +287,7 @@ In this task, you will learn how to perform custom SQL and business intelligence
 
 16. Review the query result in the lower pane.
 
-      ![Select Run](../media/img3312.png)
+      ![Select Run](../media/E3T3S14.png)
    
     We can also directly query external files stored in Azure storage without copying or loading data into a specialized store, all using familiar T-SQL dialects. This is a quick and easy way to read the content of the files without pre-configuration.
    
@@ -301,7 +299,7 @@ In this task, you will learn how to perform custom SQL and business intelligence
 
 18. Select **Run** to create a view of the Campaign file in the Serverless pool.
 
-      ![Select Run](../media/query35-44.png)
+      ![Select Run](../media/E3T3S16.png)
    
       With the relevant metadata placed in an Azure storage account, the views will allow us to reuse those queries in other places as well such as Power BI, in conjunction with a serverless SQL pool.
 
@@ -309,13 +307,13 @@ In this task, you will learn how to perform custom SQL and business intelligence
 
       To verify the view that just got created.
 
-19. Select **Data** from the left pane.
+19. Select **Data (1)** from the left pane.
 
-20. Under **SQL Database**, expand **AnalyticsServerlesspool(SQL)**, expand the **Views** folder.
+20. Under **SQL Database (2)**, expand **AnalyticsServerlesspool(SQL) (3)**, expand the **Views (4)** folder.
 
-21. Expand **dbo.Vw_CampaignData** to open the **Columns** folder and review the columns.
+21. Expand **dbo.Vw_CampaignData (5)** to open the **Columns (6)** folder and review the columns.
 
-    ![The view created by running the query](../media/img3317.png)
+    ![The view created by running the query](../media/E3T3S19.png)
    
    We can do the same even with Databricks. Let us see how.
 
