@@ -60,7 +60,7 @@ We would also like to understand our customer's sentiments so we can create targ
 
 5. On the left, select the small arrow to expand the sidebar. Collapse the **Customer Churn Model..** section and then select **Twitter Sentiment Score Model**.
 
-   ![Twitter sentiment score model](../media/img316.png)
+   ![Twitter sentiment score model](../media/E3T1S5.png)
 
 6. Review the **cmd 75** cells for training and validation of the customer sentiment model. *Here the Twitter sentiment model is trained for further consumption.*
 
@@ -122,11 +122,9 @@ In this task, you will work with Power BI to reveal some valuable insights.
 
     ![](../media/E3T2S2.png)
 
-4. In the **Open** window, navigate to the **C:\LabFiles\artifacts\reports** folder, and select the **AnalyticsDemoReport.pbix** file.
+4. In the **Open** window, navigate to the **C:\LabFiles\artifacts\reports (1)** folder, and select the **AnalyticsDemoReport.pbix (2)** file then **Open (3)**.
 
-5. Select **Open**.
-
-    ![](../media/imageFilePath.png) 
+    ![](../media/E1T3S5.png) 
 
 6. Notice that a Power BI report and dataset have been added to your workspace.
 
@@ -349,7 +347,7 @@ In this task, you will explore some SQL analytics features of Azure Databricks, 
 
 5. In the Databricks web session (tab), at the left, Select **Workspace (1)** from the left navigation pane, click on **Workspace (2)** folder and Select the **04_SQL_Analytics_On_Delta_Live_Tables (3)** notebook.
 
-   ![](../media/04/midp-img-5.png)
+   ![](../media/E3T4S5.png)
 
 6. Review cmd 4 cell.
 

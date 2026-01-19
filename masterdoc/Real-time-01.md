@@ -22,15 +22,13 @@ Consider that the Black Friday Sale in-store event has just started at 6:00 AM E
 
 In this task, you will use ADX to explore thermostat data from the stores streamed in near real-time to an Azure Event Hub.
 
-1. In the search results pane, select **Resource groups**.
+1. In the search results pane, select **Resource groups (2)**.
 
-   ![In the search results pane, select the Resource group](../media/new-real-time-feb-5.png) 
+   ![In the search results pane, select the Resource group](../media/GS6.png) 
 
-2. In the **Resource groups** page, in the filter box, enter: **analyticsSolution**.
+2. In the **Resource groups** page, select the resource group that has a named with **analyticsSolution**.
 
-3. In the filtered results, select the resource group that has a named with **analyticsSolution**.
-
-   ![In the filtered results, select the resource group](../media/new-real-time-feb-5.png) 
+   ![In the filtered results, select the resource group](../media/GS7.png) 
 
 4. In the resources filter box for resources, search for **app**.
 
@@ -50,11 +48,11 @@ In this task, you will use ADX to explore thermostat data from the stores stream
 
    ![Select Browse](../media/Fabric5.png)
 
-8. In the resources filter box for resources, search for **Synapse**.
+8. In the resources filter box for resources, search for **Synapse (1)**.
 
-9. In the filtered results, select the **Azure Synapse Workspace** named **synapse<inject key="DeploymentID" enableCopy="false"/>**.
+9. In the filtered results, select the **Azure Synapse Workspace** named **synapse<inject key="DeploymentID" enableCopy="false"/> (2)**.
 
-   ![In the filtered results, select the Azure Synapse resource](../media/image1114.png) 
+   ![In the filtered results, select the Azure Synapse resource](../media/E1T1S8.png) 
 
    >**Note:** You might see a Synapse workspace resource name with a different suffix in your Azure Portal.
 
@@ -70,33 +68,25 @@ In this task, you will use ADX to explore thermostat data from the stores stream
 
 12. Now to resolve this, you need to add **Synapse Administrator** to the user, to do that select **Manage (1)** form the left menu, click on **Access control (2)** and select **+Add (3)**.
 
-    ![](../media/03/midp-img-9.png)
+    ![](../media/E1T1S11.png)
 
 13. Once you are in the **Add role assignment** pane, select scope to **Workspace (1)**, select **Synapse Administrator (2)** role from the dropdown, search for the user **ODL_User <inject key="DeploymentId"></inject> (3)** and click on **Apply (4)**.
 
-    ![](../media/03/midp-img-10.png)
+    ![](../media/E1T1S12.png)
 
 14. Once the role is applied successfully, make sure to logout and log back in, so that the assignment will be updated and continue with the further steps.
 
-15. In Synapse Studio, on the left pane, select the **Data** hub icon.
+15. Go back to the Azure portal, then select **analyticsSolution** resource group.
 
-16. In the **Data** pane, expand **Data Explorer Databases (Preview)**.
+16. In the resource group, search for **analyticspool (1)** then select **analyticspool<inject key="DeploymentId"></inject>** Data Explorer pool. 
 
-17. Expand the **analyticspool<inject key="DeploymentId"></inject>** Data Explorer pool.
+    ![](../media/E1T1S16.png)
 
-18. Select the **ellipses** (the three dots next to the data explorer pool).
+17. Click on the URI to get open the Azure Data Explorer.
 
-    >**Note:** If you do not see the ellipses, expand the Data pane by dragging it to the right. 
+    ![](../media/E1T1S17.png)                
 
-    ![Expand Data Explorer Pool](../media/img114.png) 
-
-19. Select **Open in Azure Data Explorer**.
-
-    *This will open Azure Data Explorer in a new web session (tab).*
-
-    ![Open Azure Data Explorer](../media/img115upd.png) 
-
-    *For this lab, an ADX pool has already been created in the Azure Synapse workspace.*
+    *For this lab, an ADX pool has already been created.*
 
     *By using ADX’s powerful Kusto Query Language (KQL), you can ensure that the thresholds you have set for each device in the store are being met.*
 
@@ -104,9 +94,9 @@ In this task, you will use ADX to explore thermostat data from the stores stream
 
     >**Note:** Select **Dismiss** if any pop-up appears on your screen.
 
-    ![Open Azure Data Explorer](../media/img115aupd.png) 
-
     >**Note:** If a pop-up shows to trust the connection, copy the Cluster URI then click on **Trust**. This will automatically create the connection. 
+
+    ![Open Azure Data Explorer](../media/img115aupd.png) 
 
 20. In Azure Data Explorer Studio, locate the **Home** section in the left pane, and click on **Get Data** button.
 
@@ -146,54 +136,47 @@ In this task, you will use ADX to explore thermostat data from the stores stream
 
     ![DataManagement](../media/exercise1-datasourceupd.png)
 
-30. In the **Inspect the data** tab, wait until the data preview loads (about 20 seconds).
+24. In the **Inspect the data** tab, wait until the data preview loads (about 20 seconds).
 
-31. Review the event data, which comprises thermostat measures from different devices.
+25. Review the event data, which comprises thermostat measures from different devices.
 
-32. In the **Data** format dropdown list, select **JSON**.
+26. In the **Data** format dropdown list, select **JSON**.
 
-33. Click on **Finish**.  
+27. Click on **Finish**.  
 
     ![DataManagement](../media/new-real-time-feb-11upd.png) 
 
-34. Confirm that the continuous ingestion from Event Hub has been established, and then click on **Close** (located at the bottom of the page).
+28. Confirm that the continuous ingestion from Event Hub has been established, and then click on **Close** (located at the bottom of the page).
 
     ![DataManagement](../media/exercise1-summary.png) 
 
-35. Return to the Synapse Studio web session (tab).
+29. Return to the **Home (1)** tab, then select **Query (2)**.
 
-36. In Synapse Studio, at the left, select the **Develop** hub icon (the third from the top).
+    ![DataManagement](../media/E1T1S26.png)
 
-37. In the **Develop (1)** pane, click on **refresh (2)** expand **KQL scripts (3)**. Select the **ThermostatOccupancyScript (4)** script.
+30. On Query tab, at the right, select **Open (1)** then **KQL file (2)** to upload the KQL file from the LabVM. 
 
-    ![Select the ThermostatOccupancyScript Sript](../media/image1148upd.png) 
+    ![DataManagement](../media/E1T1S36.png)
 
-39. In the **Connect to** dropdown list select the data explorer pool starting with **analyticspool-<inject key="DeploymentId"></inject>**.
-    >**Note:** If you do not see this option, click on the ellipsis [...] next to Publish on the top bar.
+31. In the **File explorer** pane, navigate to the path  **C:\LabFiles\artifacts\kqlscripts** and expand the **KQL scripts** folder. Select the **ThermostatOccupancyScript (4)** script and click on **Open**. 
 
-    >**Note:** If required, collapse the panes on the left using the << icon at the top right of each pane.
+    ![Select the ThermostatOccupancyScript Sript](../media/E1T1S28.png) 
 
-40. In the **Use database** dropdown list, select **AnalyticsDB**.
-
-41. Select the query (lines 4-8) that is commented as **What is the average temperature every 1 min?**
+34. Select the query (lines 4-8) that is commented as **What is the average temperature every 1 min? (1)** Select **Run (2)**. 
 
     *The query retrieves the average temperature per minute for a thermostat device (TH005) for the Miami store.*
 
-42. Select **Run**. 
+    ![Review the query result ](../media/E1T1S31-1.png) 
 
-43. In the **Results** pane (located along the bottom), review the query result expressed as a chart. Please note that it may take up to 2-3 minutes to accumulate data. If you do not see any result please re-run the query after some time. 
+36. In the **Results** pane (located along the bottom), review the query result expressed as a chart. Please note that it may take up to 2-3 minutes to accumulate data. If you do not see any result please re-run the query after some time. 
 
-    >**Note:** If you don't see data in the query result, wait for a few minutes and try again since the data will take a few minutes to start streaming. Meanwhile, you can proceed with the next exercise and check on this later. In case your query returns an error, chances are that the thermostat table was not created successfully in previous steps. You may have to create that table with a different name e.g. Thermostat1, update the KQL query accordingly and re-execute the KQL query.  
+    >**Note:** If you don't see data in the query result, wait for a few minutes and try again since the data will take a few minutes to start streaming. Meanwhile, you can proceed with the next exercise and check on this later. In case your query returns an error, chances are that the thermostat table was not created successfully in previous steps. You may have to create that table with a different name e.g. Thermostat1, update the KQL query accordingly and re-execute the KQL query. 
 
-    ![Review the query result ](../media/img_graph1upd1.png) 
-
-    ![Review the query result ](../media/img_graph1upd2.png) 
-
-    ![Review the query result ](../media/img_graph1upd3.png) 
+    ![Review the query result ](../media/E1T1S30.png) 
 
     *Your graph may appear slightly different than the one shown above. It may take up to 60 seconds to load.*
 
-44. Notice that the temperature in the Miami store is oscillating between 65 and 70 degrees Fahrenheit. Based on these insights, we are able to adjust the temperatures to optimal levels.
+37. Notice that the temperature in the Miami store is oscillating between 65 and 70 degrees Fahrenheit. Based on these insights, we are able to adjust the temperatures to optimal levels.
 
 ## Task 2: Explore a few Synapse pipelines that ingest raw data from analytical data sources to the Bronze layer of the Data Lake. 
 

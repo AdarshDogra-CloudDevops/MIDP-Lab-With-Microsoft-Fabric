@@ -21,7 +21,7 @@ In this task you will set up Azure Databricks environment.
 
 2. In the search results pane, select **Azure Databricks**.
 
-   ![Select Azure Databricks](../media/image2102.png) 
+   ![Select Azure Databricks](../media/E3T4S2.png) 
 
 3. On the **Azure Databricks** page, select the resource named **databricks<inject key="DeploymentID" enableCopy="false"/>**.
 
