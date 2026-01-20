@@ -104,11 +104,11 @@ To adjust the zoom level for the environment page, click the **A↕: 100%** icon
 
 1. In the search results pane, select **Resource groups**.
 
-   ![15](../media/01/15.png?raw=true)
+   ![15](../media/GS6.png?raw=true)
 
 1. On the **Resource groups** page, you can view the pre-deployed resource group **analyticsSolution**.
 
-   ![16](../media/01/16.png?raw=true)
+   ![16](../media/GS7.png?raw=true)
  
 1. Click Next from the bottom right corner to embark on your Lab journey!
 
