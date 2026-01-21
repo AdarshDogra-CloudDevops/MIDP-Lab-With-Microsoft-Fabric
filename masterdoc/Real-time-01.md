@@ -1,4 +1,4 @@
-# Exercise 1: Data ingestion from a spectrum of analytical and operational data sources into the Lakehouse. <a name="data-ingestion"></a>
+# Exercise 1: Data ingestion from a spectrum of analytical and operational data sources into the Lakehouse <a name="data-ingestion"></a>
 
 ### Estimated Duration : 90 minutes
 
@@ -14,7 +14,7 @@ In this exercise, you will explore how to ingest near real-time data into the La
 - Task 2: Explore a few Synapse pipelines that ingest raw data from analytical data sources to the Bronze layer of the Data Lake
 - Task 3: Explore a few Synapse pipelines that ingest raw data from operational data sources to the Bronze layer of the Data Lake
 
-## Task 1: Explore a Streaming data and analytics pipeline using ADX for a near real-time analytics scenario. <a name="streaming-data"></a>
+## Task 1: Explore a Streaming data and analytics pipeline using ADX for a near real-time analytics scenario <a name="streaming-data"></a>
 
 Wide World Importers wants its customers to have a pleasant in-store shopping experience. Maintaining the optimal temperature in stores and wine coolers is one way to accomplish this objective.
 
@@ -178,7 +178,7 @@ In this task, you will use ADX to explore thermostat data from the stores stream
 
 37. Notice that the temperature in the Miami store is oscillating between 65 and 70 degrees Fahrenheit. Based on these insights, we are able to adjust the temperatures to optimal levels.
 
-## Task 2: Explore a few Synapse pipelines that ingest raw data from analytical data sources to the Bronze layer of the Data Lake. 
+## Task 2: Explore a few Synapse pipelines that ingest raw data from analytical data sources to the Bronze layer of the Data Lake
 
 In this task, you will ingest campaign data from Snowflake and customer churn data from Teradata into the data lake.
 
@@ -218,7 +218,7 @@ In this task, you will ingest campaign data from Snowflake and customer churn da
 
     ![Sink Dataset](../media/image1212upd.png) 
 
-## Task 3: Explore a few Synapse pipelines that ingest raw data from operational data sources to the Bronze layer of the Data Lake. <a name="operational-sources"></a>
+## Task 3: Explore a few Synapse pipelines that ingest raw data from operational data sources to the Bronze layer of the Data Lake <a name="operational-sources"></a>
   
 In this task, you will explore the design of a Synapse pipeline. This pipeline is designed to ingest raw data from various operational sources into the data lake.
 

@@ -1,4 +1,4 @@
-# Exercise 4: Glimpse of Purview to govern the overall data and analytics estate.
+# Exercise 4: Glimpse of Purview to govern the overall data and analytics estate
 
 ### Estimated Duration : 15 minutes
 
@@ -33,5 +33,6 @@ In this exercise, you will explore the Wide World Importers data estate that’s
 ## Summary
 
 In this exercise, you have explored on the basic features of Microsoft Purview to govern the overall data and analytics estate.
+
 
 ### You have successfully completed the Real Time Analytics with Synapse lab!

@@ -45,7 +45,7 @@ In this task you will set up Azure Databricks environment.
 
    *In exercise 1, we extracted data from a spectrum of data sources and landed it into the ADLS Gen2 data lake. To access this data from the ADLS Gen2 data lake, we need to mount it on the Azure Databricks filesystem. Executing this script will mount ADLS Gen2 to Azure Databricks.*
 
-## Task 2: Review sentiment analysis model training. <a name="sentiment-model"></a>
+## Task 2: Review sentiment analysis model training <a name="sentiment-model"></a>
 
 In this task, you will explore the sentiment analysis model training notebook. This notebook is used to retrieve the model ID that’s used by the DLT pipeline for further data processing.
 
