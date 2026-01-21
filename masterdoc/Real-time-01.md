@@ -1,4 +1,4 @@
-# Exercise 1: Data ingestion from a spectrum of analytical and operational data sources into the Lakehouse. <a name="data-ingestion"></a>
+# Exercise 1: Data ingestion from a spectrum of analytical and operational data sources into the Lakehouse <a name="data-ingestion"></a>
 
 ### Estimated Duration : 90 minutes
 
