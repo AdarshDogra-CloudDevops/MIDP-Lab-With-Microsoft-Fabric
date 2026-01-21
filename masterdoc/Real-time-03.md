@@ -100,7 +100,7 @@ We would also like to understand our customer's sentiments so we can create targ
 
     *All these analyses using MLOps helped Wide World Importers predict a positive sales forecast and a successful year ahead*.
 
-## Task 2: Leverage Power BI to derive actionable insights from data in the Lakehouse. <a name="power-bi-report-to-analyse-data-in-the-Lakehouse"></a>
+## Task 2: Leverage Power BI to derive actionable insights from data in the Lakehouse <a name="power-bi-report-to-analyse-data-in-the-Lakehouse"></a>
 
 For this task, the date is November 1. Wide World Importers now needs to prepare for a successful Cyber Monday Sale event. Good news! The enriched datasets sourced from disparate data sources and the best-performing model outputs have now been placed in the Lakehouse for Power BI consumption.
 
@@ -224,7 +224,7 @@ Let's see how, on an ongoing basis, if there are any business needs to run ad-ho
 
 We will discuss that in more detail in the next task.
 
-## Task 3: Explore SQL Analytics with Azure Synapse Serverless. <a name="sql-analytics-with-synapse"></a>
+## Task 3: Explore SQL Analytics with Azure Synapse Serverless <a name="sql-analytics-with-synapse"></a>
 
 Data engineers are often required to support ad hoc and time-critical queries in addition to regularly scheduled reports.
 
@@ -317,7 +317,7 @@ In this task, you will learn how to perform custom SQL and business intelligence
    
    We can do the same even with Databricks. Let us see how.
 
-## Task 4: Explore SQL Analytics with Azure Databricks. <a name="explore-sql-analytics-with-azure-databricks"></a>
+## Task 4: Explore SQL Analytics with Azure Databricks <a name="explore-sql-analytics-with-azure-databricks"></a>
 
 Azure Databricks provides an environment that allows you to run quick ad hoc SQL queries on your data lake. Queries support multiple visualization types that help you explore query results from different perspectives.
 
