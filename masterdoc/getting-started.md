@@ -4,9 +4,7 @@
 
 ## Overview
 
-This interactive lab begins with exploring an integrated Data Lakehouse foundation, focusing on data ingestion, transformation, and analytics using ADX, Synapse, Azure Databricks, and Microsoft Purview. It includes exercises for creating pipelines, combining data, and investigating ML and BI scenarios. Involves working with Microsoft Fabric, including creating a workspace, building a lakehouse, ingesting sample data, preparing and transforming data, and developing reports. This segment emphasizes hands-on experience with data handling and reporting in a Microsoft Fabric environment.
-
-We have arranged this lab into two parts to provide a comprehensive understanding of the Microsoft Intelligent Data Platform. The first emphasizes building and leveraging Microsoft Fabric for advanced data analytics and reporting, and the second focuses on implementing an integrated Data Lakehouse foundation
+This interactive lab begins with exploring an integrated Data Lakehouse foundation, focusing on data ingestion, transformation, and analytics using ADX, Synapse, Azure Databricks, and Microsoft Purview. It includes exercises for creating pipelines, combining data, and investigating ML and Power BI scenarios. 
 
 ## Objective
 
