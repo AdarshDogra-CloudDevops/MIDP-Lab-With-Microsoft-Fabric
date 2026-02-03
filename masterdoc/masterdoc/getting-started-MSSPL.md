@@ -109,7 +109,7 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
    
      ![](../../media/staysign.png)
 
-6. In **Microsoft Fabric (Free) license assignment** dialog, click **OK** to proceed.
+6. In **Microsoft Fabric (Free) license assigned** dialog, click **OK** to proceed.
 
       ![](../../media/powerbi(4).png)
 
