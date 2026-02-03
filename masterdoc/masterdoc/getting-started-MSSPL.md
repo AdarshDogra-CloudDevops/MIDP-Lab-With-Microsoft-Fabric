@@ -51,7 +51,7 @@ Once the environment is provisioned, a virtual machine (LabVM) and lab guide wil
  
 Once you're ready to dive in, your virtual machine and **Guide** will be right at your fingertips within your web browser.
  
-   ![01](../../media/Lab-Guide-first-screenshot(1).png)
+   ![01](../../media/guideee2.png)
 
 ## Virtual Machine & Lab Guide
  
@@ -61,31 +61,31 @@ Your virtual machine is your workhorse throughout the workshop. The lab guide is
  
 To get a better understanding of your lab resources and credentials, navigate to the **Environment** tab.
  
-![Explore Lab Resources](../../media/env.png)
+![Explore Lab Resources](../../media/envtabb.png)
  
 ## Utilizing the Split Window Feature
  
 For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
-![Use the Split Window Feature](../../media/split.png)
+![Use the Split Window Feature](../../media/splittt.png)
  
 ## Managing Your Virtual Machine
  
 Feel free to **Start, Restart, and Stop(2)** your virtual machine as needed from the **Resources(1)** tab. Your experience is in your hands!
  
-![Manage Your Virtual Machine](../../media/resourcetab.png)
+![Manage Your Virtual Machine](../../media/vmssr.png)
 
 ## Lab Guide Zoom In/Zoom Out
  
 To adjust the zoom level for the environment page, click the **A↕ : 100%** icon located next to the timer in the lab environment.
 
-![Manage Your Virtual Machine](../../media/Zoom-in-and-zoom-out(1).png)
+![Manage Your Virtual Machine](../../media/zum.png)
 
 ## Let's Get Started with Power BI Portal
  
 1. On your virtual machine, open the **Microsoft Edge**.
  
-    ![](../../media/microsoftedge(1).png)
+    ![](../../media/edg.png)
  
 2.  In a new tab, navigate to the **Power BI** portal by copying and pasting the following URL into the address bar:
 
@@ -97,17 +97,17 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
    - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
  
-      ![](../../media/pbilogin.png)
+      ![](../../media/biusr.png)
  
 4. Next, provide your password:
  
-   - **Password:** <inject key="AzureAdUserPassword"></inject>
+   - **Temporary Access Pass:** <inject key="AzureAdUserPassword"></inject>
  
-      ![](../../media/GSpwd.png)
+      ![](../../media/odltap.png)
 
 5. If you see the pop-up **Stay Signed in?**, select **No**.
    
-     ![](../../media/GSno.png)
+     ![](../../media/staysign.png)
 
 6. In **Microsoft Fabric (Free) license assignment** dialog, click **OK** to proceed.
 
@@ -115,23 +115,27 @@ To adjust the zoom level for the environment page, click the **A↕ : 100%** ico
 
 7. You will be navigated to the **Power BI** Home page.
 
-      ![](../../media/powerbi(5).png)
+      ![](../../media/pbihomee.png)
 
 1. Select **Account manager (1)** from the top right corner, and click on **Free trial (2)**.
 
-   ![Account-manager-start](../../media/amanager(1).png)  
+   ![Account-manager-start](../../media/freetriall.png)  
 
 1. A new prompt will appear asking you to **Activate your 60-day free Fabric trial capacity**, click on **Activate**.
 
-   ![](../../media/amanager(2).png)
+   ![](../../media/60act.png)
 
-1. After your trial capacity is successfully set up, **on the Invite teammates to try Fabric** pop-up, click on **X** button.
+1. On **Successfully upgraded to Microsoft Fabric** pop-up click **OK**. 
+
+   ![](../../media/sumf.png)
+
+1. After your trial capacity is successfully set up,on **Invite teammates to try Fabric to extend your trial** pop-up, click on **X** button.
 
    ![](../../media/invite.png) 
 
 1. Open **Account manager (1)** again, and verify the **Trial Status (2)**.
 
-   ![](../../media/trialstatus.png)
+   ![](../../media/stattrial.png)
 
 ## Support Contact
 
@@ -144,6 +148,6 @@ Learner Support Contacts:
 
 Now, click on **Next** from the lower right corner to move on to the next page.
 
-   ![Start Your Azure Journey](../../media/page1.png)
+   ![Start Your Azure Journey](../../media/1nxt.png)
 
 ## Happy Learning!!
